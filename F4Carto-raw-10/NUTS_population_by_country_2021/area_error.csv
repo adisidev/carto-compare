@@ -1,0 +1,13 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+NUTS_population_by_country_2021.geojson,29.9325,0.195364
+NUTS_population_by_country_2021_0.geojson,14.5773,0.0705102
+NUTS_population_by_country_2021_1.geojson,6.29969,0.027812
+NUTS_population_by_country_2021_2.geojson,2.99317,0.0209503
+NUTS_population_by_country_2021_3.geojson,2.35123,0.0184621
+NUTS_population_by_country_2021_4.geojson,1.91331,0.0165874
+NUTS_population_by_country_2021_5.geojson,1.48812,0.0152067
+NUTS_population_by_country_2021_6.geojson,1.38431,0.0148253
+NUTS_population_by_country_2021_7.geojson,1.14937,0.013088
+NUTS_population_by_country_2021_8.geojson,0.783137,0.0103022
+NUTS_population_by_country_2021_9.geojson,0.417461,0.0081232
+NUTS_population_by_country_2021_10.geojson,0.318817,0.00748553

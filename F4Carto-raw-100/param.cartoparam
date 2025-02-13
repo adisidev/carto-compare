@@ -1,0 +1,17 @@
+-1.000000, 1.050000, 6.000000, 9.000000, 10.000000, 0.010000
+256.000000, -1.000000
+0, 0, 1 
+100, 1, 1, 6, 0, 0, 16
+6, 0.333333, 3
+2, 0.001000
+
+
+
+
+# Notes: 
+#  Line 1: Inner Force Cancellation Control, Epsilon, Enlarge Exaggeration Rate, Shrink Exaggeration Rate, Max Radius Ratio Allowed, Min Radius Ratio Allowed
+#  Line 2: Max Vertice Distance Control, Outer Rectangle Size Factor
+#  Line 3: If use square full tree, If stop when all error measures go up, If use relative sizes
+#  Line 4: Maximum Steps, Export per # of steps, Thread Number (the program automatically increase this at least to the number of CPU/Cores), Depth of Quadtree, Elasticity Type (0 Jacobian 1 Gradient), Force type (0 exponential, 1 directional exponential), Number of points on approximate circle
+#  Line 5: Minimum Tree Node Depth (Only for Adaptive Quadtree) , A Scale factor for optional tree node size (Only for Adaptive Quadtree) , Depth when conducting local quadtree search
+#  Line 6: Point Densification Type (Default 0 length-based 1 quadtree node intersection 2 both), Unitless Tolerance (Default 0.001 if x1-x2 and y1-y2 smaller than this number, 1 and 2 are the same point) 

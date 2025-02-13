@@ -1,0 +1,13 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+usa_population_by_state_2020.geojson,72.2296,0.395514
+usa_population_by_state_2020_0.geojson,26.1247,0.190976
+usa_population_by_state_2020_1.geojson,8.46932,0.0601299
+usa_population_by_state_2020_2.geojson,3.7632,0.0256607
+usa_population_by_state_2020_3.geojson,2.75787,0.0207967
+usa_population_by_state_2020_4.geojson,2.26806,0.019808
+usa_population_by_state_2020_5.geojson,2.00753,0.0201435
+usa_population_by_state_2020_6.geojson,1.80368,0.0204713
+usa_population_by_state_2020_7.geojson,1.70677,0.0209987
+usa_population_by_state_2020_8.geojson,1.52741,0.0216344
+usa_population_by_state_2020_9.geojson,1.37119,0.0212787
+usa_population_by_state_2020_10.geojson,1.15962,0.0205095

@@ -1,0 +1,9 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+switzerland_population_by_canton_2016.geojson,6.42726,0.347493
+switzerland_population_by_canton_2016_0.geojson,2.47027,0.173935
+switzerland_population_by_canton_2016_1.geojson,0.67098,0.0554367
+switzerland_population_by_canton_2016_2.geojson,1.27349,0.0723098
+switzerland_population_by_canton_2016_3.geojson,0.567714,0.0654158
+switzerland_population_by_canton_2016_4.geojson,0.744508,0.0740327
+switzerland_population_by_canton_2016_5.geojson,0.403295,0.0545039
+switzerland_population_by_canton_2016_6.geojson,0.559985,0.0599517

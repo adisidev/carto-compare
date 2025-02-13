@@ -1,0 +1,6 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+belgium_population_by_region_2022.geojson,0.949769,0.25744
+belgium_population_by_region_2022_0.geojson,0.858431,0.209467
+belgium_population_by_region_2022_1.geojson,0.833249,0.257271
+belgium_population_by_region_2022_2.geojson,0.378991,0.0377597
+belgium_population_by_region_2022_3.geojson,0.460008,0.0548222

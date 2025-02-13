@@ -1,0 +1,10 @@
+The following files could not complete 100 iterations:
+
+- australia_population_by_state_and_territory_2021
+- belgium_population_by_region_2022
+- china_population_by_province_2020
+- england_population_by_region_2022
+- russia_population_by_federal_subject_2010
+- singapore_population_by_planning_area_2015
+- usa_population_by_county_2021
+- brazil_population_by_state_2021

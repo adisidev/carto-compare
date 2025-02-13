@@ -1,0 +1,8 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+conterminous_usa_population_by_state_2020.geojson,17.4979,0.357122
+conterminous_usa_population_by_state_2020_0.geojson,3.72291,0.148446
+conterminous_usa_population_by_state_2020_1.geojson,0.904462,0.0581612
+conterminous_usa_population_by_state_2020_2.geojson,0.841715,0.0446111
+conterminous_usa_population_by_state_2020_3.geojson,1.39604,0.0574586
+conterminous_usa_population_by_state_2020_4.geojson,0.437851,0.0384026
+conterminous_usa_population_by_state_2020_5.geojson,0.863153,0.0453602

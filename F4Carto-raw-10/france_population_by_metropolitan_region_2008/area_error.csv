@@ -1,0 +1,6 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+france_population_by_metropolitan_region_2008.geojson,0.962748,0.268327
+france_population_by_metropolitan_region_2008_0.geojson,0.699499,0.16924
+france_population_by_metropolitan_region_2008_1.geojson,0.429035,0.0856722
+france_population_by_metropolitan_region_2008_2.geojson,0.478437,0.0612422
+france_population_by_metropolitan_region_2008_3.geojson,0.431111,0.0779906

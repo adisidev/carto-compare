@@ -1,0 +1,7 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+concentric_circles.geojson,0.7502,0.0961277
+concentric_circles_0.geojson,0.669793,0.117245
+concentric_circles_1.geojson,2.37586,0.289162
+concentric_circles_2.geojson,0.715673,0.0920093
+concentric_circles_3.geojson,0.300423,0.0461866
+concentric_circles_4.geojson,1.52774,0.18691

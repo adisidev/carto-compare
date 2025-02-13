@@ -1,0 +1,8 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+brazil_population_by_state_2021.geojson,8.17692,0.501186
+brazil_population_by_state_2021_0.geojson,2.26531,0.243082
+brazil_population_by_state_2021_1.geojson,0.898218,0.0946126
+brazil_population_by_state_2021_2.geojson,0.681567,0.0915107
+brazil_population_by_state_2021_3.geojson,0.449114,0.0821842
+brazil_population_by_state_2021_4.geojson,0.313994,0.0507081
+brazil_population_by_state_2021_5.geojson,0.588195,0.0964534

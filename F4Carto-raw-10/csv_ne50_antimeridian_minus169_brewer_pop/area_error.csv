@@ -1,0 +1,13 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+csv_ne50_antimeridian_minus169_brewer_pop.geojson,834.393,0.504742
+csv_ne50_antimeridian_minus169_brewer_pop_0.geojson,718.963,0.279599
+csv_ne50_antimeridian_minus169_brewer_pop_1.geojson,559.532,0.140107
+csv_ne50_antimeridian_minus169_brewer_pop_2.geojson,482.296,0.0899527
+csv_ne50_antimeridian_minus169_brewer_pop_3.geojson,403.548,0.0709739
+csv_ne50_antimeridian_minus169_brewer_pop_4.geojson,346.676,0.0613035
+csv_ne50_antimeridian_minus169_brewer_pop_5.geojson,311.501,0.0542898
+csv_ne50_antimeridian_minus169_brewer_pop_6.geojson,280.941,0.0476231
+csv_ne50_antimeridian_minus169_brewer_pop_7.geojson,255.911,0.041995
+csv_ne50_antimeridian_minus169_brewer_pop_8.geojson,242.483,0.038711
+csv_ne50_antimeridian_minus169_brewer_pop_9.geojson,229.92,0.0358025
+csv_ne50_antimeridian_minus169_brewer_pop_10.geojson,221.921,0.0332621

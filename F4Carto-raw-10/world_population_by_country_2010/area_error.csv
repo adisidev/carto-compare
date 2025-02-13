@@ -1,0 +1,13 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+world_population_by_country_2010.geojson,155.961,0.489721
+world_population_by_country_2010_0.geojson,142.629,0.286591
+world_population_by_country_2010_1.geojson,105.154,0.158687
+world_population_by_country_2010_2.geojson,75.1188,0.102988
+world_population_by_country_2010_3.geojson,58.5565,0.0789993
+world_population_by_country_2010_4.geojson,51.8659,0.0699604
+world_population_by_country_2010_5.geojson,46.5902,0.0635251
+world_population_by_country_2010_6.geojson,43.6036,0.0593656
+world_population_by_country_2010_7.geojson,39.4475,0.0559179
+world_population_by_country_2010_8.geojson,35.0769,0.0515398
+world_population_by_country_2010_9.geojson,32.7755,0.0478287
+world_population_by_country_2010_10.geojson,30.3035,0.0441775

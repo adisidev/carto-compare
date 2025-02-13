@@ -1,0 +1,8 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+austria_population_by_state_2020.geojson,0.977033,0.325383
+austria_population_by_state_2020_0.geojson,0.927774,0.287243
+austria_population_by_state_2020_1.geojson,0.778383,0.236906
+austria_population_by_state_2020_2.geojson,0.352406,0.132443
+austria_population_by_state_2020_3.geojson,0.635984,0.108397
+austria_population_by_state_2020_4.geojson,0.438313,0.0780734
+austria_population_by_state_2020_5.geojson,0.940239,0.133915

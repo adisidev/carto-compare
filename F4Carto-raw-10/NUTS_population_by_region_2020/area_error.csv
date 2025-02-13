@@ -1,0 +1,13 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+NUTS_population_by_region_2020.geojson,100.405,0.399762
+NUTS_population_by_region_2020_0.geojson,70.5343,0.28122
+NUTS_population_by_region_2020_1.geojson,56.2496,0.252745
+NUTS_population_by_region_2020_2.geojson,45.4903,0.238548
+NUTS_population_by_region_2020_3.geojson,36.7837,0.220308
+NUTS_population_by_region_2020_4.geojson,32.2805,0.206678
+NUTS_population_by_region_2020_5.geojson,29.3273,0.195184
+NUTS_population_by_region_2020_6.geojson,23.552,0.17676
+NUTS_population_by_region_2020_7.geojson,20.8911,0.168968
+NUTS_population_by_region_2020_8.geojson,18.2396,0.159618
+NUTS_population_by_region_2020_9.geojson,16.5015,0.156198
+NUTS_population_by_region_2020_10.geojson,14.9448,0.152643

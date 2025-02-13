@@ -1,0 +1,10 @@
+map_name,max_relative_area_error,area_weighted_mean_error
+germany_population_by_state_2011.geojson,2.1912,0.25478
+germany_population_by_state_2011_0.geojson,0.943975,0.129962
+germany_population_by_state_2011_1.geojson,0.916133,0.105273
+germany_population_by_state_2011_2.geojson,0.834753,0.138523
+germany_population_by_state_2011_3.geojson,0.594297,0.0528614
+germany_population_by_state_2011_4.geojson,0.267316,0.0407555
+germany_population_by_state_2011_5.geojson,0.505382,0.029605
+germany_population_by_state_2011_6.geojson,0.431163,0.0358493
+germany_population_by_state_2011_7.geojson,2.91699,0.134397
