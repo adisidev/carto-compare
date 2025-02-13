@@ -1,0 +1,9 @@
+.DS_Store
+**/.DS_Store
+
+# Ignore backup folder
+**/backup
+*.geojson
+.Rhistory
+.vscode-ctags
+*.txt
