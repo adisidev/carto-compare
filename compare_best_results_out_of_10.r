@@ -4,9 +4,10 @@ library(stringr)
 library(janitor)
 
 
-# Set `_F4Carto` and `5FCarto` directories
+# Set `_F4Carto`, `5FCarto`, and `flow_based` directories
 dir_F4Carto <- "./F4Carto-raw-10"
 dir_5FCarto <- "./5FCarto-raw"
+dir_flow_based <- "./flow-based-raw"
 dir_inputs <- "./inputs"
 dir_output <- "./results_defaults"
 
@@ -20,6 +21,7 @@ process_mapname <- function(mapname) {
 	file_F4Carto <- file.path(dir_F4Carto, mapname, "area_error.csv")
 	nfo_csv_F4Carto <- file.path(dir_F4Carto, mapname, paste0(mapname, "_F4Carto.csv"))
 	file_5FCarto <- file.path(dir_5FCarto, paste0(mapname, "_time_report.csv"))
+	file_flow_based <- file.path(dir_flow_based, paste0(mapname, "_time_report.csv"))
 
 	# Read and clean CSV files
 	area_error_F4Carto <- read_csv(file_F4Carto) |> clean_names() |>
@@ -41,12 +43,21 @@ process_mapname <- function(mapname) {
 	df_5FCarto <- read_csv(file_5FCarto) |> clean_names() |>
 		mutate(time_at_n = cumsum(time_s))
 
+	df_flow_based <- read_csv(file_flow_based) |> clean_names() |>
+		mutate(time_at_n = cumsum(time_s))
+
 	# Find first iteration where 5FCarto area error <= area error
 	metrics_5FCarto_at_n <- df_5FCarto |>
 		filter(max_area_error <= area_error_F4Carto) |>
 		slice(1)
 
+	# Find first iteration where flow_based area error <= area error
+	metrics_flow_based_at_n <- df_flow_based |>
+		filter(max_area_error <= area_error_F4Carto) |>
+		slice(1)
+
 	metrics_5FCarto <- tail(df_5FCarto, 1)
+	metrics_flow_based <- tail(df_flow_based, 1)
 
 
 	# Return a data frame row
@@ -54,12 +65,17 @@ process_mapname <- function(mapname) {
 		mapname = mapname,
 		F4Carto_n_iter = metrics_F4Carto$round,
 		`5FCarto_n_defeated` = metrics_5FCarto_at_n$integration_number,
+		flow_based_n_defeated = metrics_flow_based_at_n$integration_number,
 		F4Carto_min_relative_area_error_reached = area_error_F4Carto,
 		`5FCarto_max_relative_area_error_at_n` = metrics_5FCarto_at_n$max_area_error,
+		flow_based_max_relative_area_error_at_n = metrics_flow_based_at_n$max_area_error,
 		F4Carto_time = metrics_F4Carto$total_time,
 		`5FCarto_time_at_n` = metrics_5FCarto_at_n$time_at_n,
+		flow_based_time_at_n = metrics_flow_based_at_n$time_at_n,
 		`5FCarto_final_error` = metrics_5FCarto$max_area_error,
-		`5FCarto_total_time` = metrics_5FCarto$time_at_n
+		flow_based_final_error = metrics_flow_based$max_area_error,
+		`5FCarto_total_time` = metrics_5FCarto$time_at_n,
+		flow_based_total_time = metrics_flow_based$time_at_n
 	)
 }
 

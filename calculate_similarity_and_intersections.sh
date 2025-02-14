@@ -28,13 +28,19 @@ for f4carto_dir in ../"$2"/*/; do
     # i.e. map with pattern *_cartogram.geojson in 5FCarto directory
     _5FCarto_map=$(ls -t ../"$1"/"$mapname"_cartogram.geojson)
 
-    # Calculate similarity between input_map and each of the two maps
+    # Find flow_based map
+    # i.e. map with pattern *_flow_based.geojson in flow_based directory
+    flow_based_map=$(ls -t ../"$1"/"$mapname"_flow_based.geojson)
+
+    # Calculate similarity between input_map and each of the three maps
     carto --similarity --map_1 "$input_map" --map_2 "$f4carto_map"
     carto --similarity --map_1 "$input_map" --map_2 "$_5FCarto_map"
+    carto --similarity --map_1 "$input_map" --map_2 "$flow_based_map"
 
-    # Calculate intersections for both cartograms
+    # Calculate intersections for all three cartograms
     carto --intersection --map "$f4carto_map"
     carto --intersection --map "$_5FCarto_map"
+    carto --intersection --map "$flow_based_map"
 done
 
 # Copy all .svg files to `intersections` directory
