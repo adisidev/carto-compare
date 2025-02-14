@@ -1,16 +1,16 @@
 # Get 5FCarto directory, F4Carto directory and output directory
-if [ "$#" -ne 3 ]; then
-    echo "Usage: $0 <5FCarto-directory> <F4Carto-directory> <results-directory>"
+if [ "$#" -ne 4 ]; then
+    echo "Usage: $0 <5FCarto-directory> <F4Carto-directory> <flow-based-data> <results-directory>"
     exit 1
 fi
 
 input_dir="inputs"
 
 # Create output directory if it does not exist
-mkdir -p "$3"
+mkdir -p "$4"
 
 # cd into results directory
-cd "$3"
+cd "$4"
 
 # For each subdirectory in F4Carto-directory
 for f4carto_dir in ../"$2"/*/; do
@@ -26,11 +26,11 @@ for f4carto_dir in ../"$2"/*/; do
 
     # Find 5FCarto map
     # i.e. map with pattern *_cartogram.geojson in 5FCarto directory
-    _5FCarto_map=$(ls -t ../"$1"/"$mapname"_cartogram.geojson)
+    _5FCarto_map=$(ls -t ../"$1"/"$mapname"_*.geojson)
 
     # Find flow_based map
     # i.e. map with pattern *_flow_based.geojson in flow_based directory
-    flow_based_map=$(ls -t ../"$1"/"$mapname"_flow_based.geojson)
+    flow_based_map=$(ls -t ../"$3"/"$mapname"_*.geojson)
 
     # Calculate similarity between input_map and each of the three maps
     carto --similarity --map_1 "$input_map" --map_2 "$f4carto_map"
