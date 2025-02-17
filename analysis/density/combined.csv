@@ -1,0 +1,33 @@
+Map,Group,Min Density,Max Density,Ratio
+France Population by Metropolitan Region (2008),Group 1,0.50949,8.44018,16.565938
+England Population by Region (2022),Group 1,0.551883,12.8665,23.313818
+Belgium Population by Region (2022),Group 1,0.57356,19.9079,34.709359
+Simplified Belgium Population by Region (2022),Group 1,0.577429,22.8774,39.619416
+Germany Population by State (2011),Group 1,0.313362,15.9831,51.005227
+Austria Population by State (2020),Group 1,0.55282,43.54,78.759813
+Vietnam Population by Province (2019),Group 1,0.174899,14.6577,83.806654
+Japan Population by Prefecture (2020),Group 1,0.196763,19.276,97.965573
+Croatia Population by County (2021),Group 2,0.116251,17.4651,150.236127
+Switzerland Population by Canton (2016),Group 2,0.134639,25.5824,190.007353
+Croatia Covid Cases by County (2022),Group 2,0.098922,19.6604,198.745683
+Brazil Population by State (2021),Group 2,0.108969,28.188,258.679074
+Malaysia Population by State (2020),Group 2,0.201408,83.5196,414.678662
+European Union Population by Country (2021),Group 2,0.032328,15.2862,472.841217
+Switzerland GDP by Canton (2019),Group 2,0.105676,59.629,564.262463
+Tunisia Population by Governate (2014),Group 2,0.054865,51.9255,946.417863
+Australia Population by State and Territory (2021),Group 3,0.055118,57.0753,1035.505449
+Metropolitan France Population by Departement (2022),Group 3,0.124827,194.37,1557.115047
+Conterminous USA Population by State (2020),Group 3,0.05406,91.953,1700.933957
+Bahamas Population by District (2010),Group 3,0.019397,38.4711,1983.322421
+Indonesia Population by Province (2024),Group 3,0.03075,109.621,3564.956943
+Singapore Population by Planning Area (2015),Group 3,0.001166,5.75369,4932.988674
+USA Population by State (2020),Group 3,0.013656,109.255,8000.629769
+Egypt Population by Governate (2017),Group 3,0.005798,50.4275,8697.635671
+European Union Population by Region (2020),Group 4,0.009862,150.907,15301.16756
+USA Population by County (2021),Group 4,0.023661,479.713,20274.674883
+Algeria Population by Wilaya (2022),Group 4,0.012265,257.315,20979.274696
+China Population by Province (2020),Group 4,0.021012,1621.51,77171.398928
+World Population by Country and Region without Antarctica,Group 4,0.006319,869.075,137532.105199
+Russia Population by Federal Subject (2010),Group 4,0.008338,1448.55,173736.421501
+World Population by Country (2010),Group 4,0.006376,2836.26,444839.33299
+World Population by Country and Region,Group 4,0.001187,948.66,799275.423372
