@@ -1,5 +1,5 @@
-Group,F4Carto_self-intersections,5FCarto_self-intersections,flow_based_self-intersections,F4Carto_overlap intersections,5FCarto_overlap intersections,flow_based_overlap intersections,F4Carto_total,5FCarto_total,flow_based_total
-Group 1,0.0,0.0,1.0,37.875,0.0,0.75,37.875,0.0,1.75
-Group 2,0.0,0.0,0.5,81.75,0.0,0.75,81.75,0.0,1.25
-Group 3,0.0,0.0,55.5,202.625,0.0,115.25,202.625,0.0,170.75
-Group 4,0.0,0.0,85.375,622.0,0.0,228.5,622.0,0.0,313.875
+Group,F4Carto_self-intersections,5FCarto_self-intersections,flow_based_self-intersections,F4Carto_overlap intersections,5FCarto_overlap intersections,flow_based_overlap intersections
+Group 1,0.0,0.0,1.0,37.875,0.0,0.75
+Group 2,0.0,0.0,0.5,81.75,0.0,0.75
+Group 3,0.0,0.0,55.5,202.625,0.0,115.25
+Group 4,0.0,0.0,85.375,622.0,0.0,228.5
