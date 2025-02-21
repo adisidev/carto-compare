@@ -12,7 +12,7 @@ custom_header = r"""
 \toprule
 \multirow{2}{*}{Group} & \multicolumn{3}{c}{Average Fréchet Distance} & \multicolumn{3}{c}{Average Hausdorff Distance} & \multicolumn{3}{c}{Average Symmetric Difference} \\
 \cmidrule(lr){2-10}
-                   & F4Carto & 5FCarto & FFB & F4Carto & 5FCarto & FFB & F4Carto & 5FCarto & FFB \\
+                   & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB \\
 \midrule
 """
 

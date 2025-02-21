@@ -12,7 +12,7 @@ custom_header = r"""
 \toprule
 \multirow{2}{*}{Map} & \multicolumn{3}{c}{Self-intersections} & \multicolumn{3}{c}{Overlap Intersections} & \multicolumn{3}{c}{Total} \\
 \cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
-                   & F4Carto & 5FCarto & FFB & F4Carto & 5FCarto & FFB & F4Carto & 5FCarto & FFB \\
+                   & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB \\
 \midrule
 """
 

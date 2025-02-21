@@ -10,7 +10,7 @@ custom_header = r"""
 \toprule
 \multirow{2}{*}{Map} & \multicolumn{3}{c}{Fréchet Distance} & \multicolumn{3}{c}{Hausdorff Distance} & \multicolumn{3}{c}{Symmetric Difference} \\
 \cmidrule(lr){2-10}
-                   & F4Carto & 5FCarto & FFB & F4Carto & 5FCarto & FFB & F4Carto & 5FCarto & FFB \\
+                   & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB \\
 \midrule
 """
 

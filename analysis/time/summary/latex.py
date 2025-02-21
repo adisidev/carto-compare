@@ -12,7 +12,7 @@ custom_header = r"""
 \toprule
 \multirow{2}{*}{Group} & \multicolumn{3}{c}{Average Time} & \multicolumn{3}{c}{\shortstack{Average Max Relative Area \\ Error at Time}} \\
 \cmidrule(lr){2-4}\cmidrule(lr){5-7}
-                     & F4Carto & 5FCarto & FFB & F4Carto & 5FCarto & FFB \\
+                     & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB \\
 \midrule
 """
 

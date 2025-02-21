@@ -12,7 +12,7 @@ custom_header = r"""
 \toprule
 \multirow{2}{*}{Group} & \multicolumn{3}{c}{Average Self-intersections} & \multicolumn{3}{c}{Average Overlap Intersections} & \multicolumn{3}{c}{Average Total} \\
 \cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
-                   & F4Carto & 5FCarto & FFB & F4Carto & 5FCarto & FFB & F4Carto & 5FCarto & FFB \\
+                   & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB \\
 \midrule
 """
 

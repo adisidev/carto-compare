@@ -11,7 +11,7 @@ custom_header = r"""\begin{tabular}{lccc}
 \toprule
 Group & \multicolumn{3}{c}{\shortstack{Average Minimum Max Relative Area Error\\Among First 100 Iterations*}} \\
 \cmidrule(lr){2-4}
-     & F4Carto & 5FCarto & FFB \\
+     & F4Carto & 5FCarto & BFB \\
 \midrule
 """
 
