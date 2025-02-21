@@ -8,11 +8,11 @@ if len(parts) < 2:
     raise ValueError("Could not find '\\midrule' in the generated LaTeX table.")
 
 custom_header = r"""
-\begin{tabular}{lrrr|rrr|rrr}
+\begin{tabular}{lrrr|rrr}
 \toprule
-\multirow{2}{*}{Map} & \multicolumn{3}{c}{Self-intersections} & \multicolumn{3}{c}{Overlap Intersections} & \multicolumn{3}{c}{Total} \\
-\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}
-                   & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB \\
+\multirow{2}{*}{Map} & \multicolumn{3}{c}{Self-intersections} & \multicolumn{3}{c}{Overlap Intersections} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+                   & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB \\
 \midrule
 """
 

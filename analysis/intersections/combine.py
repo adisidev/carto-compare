@@ -28,8 +28,8 @@ merged_df["flow_based_total"] = merged_df["flow_based_self-intersections"] + mer
 merged_df = merged_df[[
     "Map",
     "F4Carto_self-intersections", "5FCarto_self-intersections", "flow_based_self-intersections",
-     "F4Carto_overlap intersections",  "5FCarto_overlap intersections", "flow_based_overlap intersections",
-     "F4Carto_total", "5FCarto_total", "flow_based_total"
+     "F4Carto_overlap intersections",  "5FCarto_overlap intersections", "flow_based_overlap intersections"
+    #  "F4Carto_total", "5FCarto_total", "flow_based_total"
 ]]
 
 merged_df = merged_df[merged_df["Map"] != "concentric_circles"]
