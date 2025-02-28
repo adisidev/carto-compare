@@ -14,7 +14,7 @@ if __name__ == "__main__":
     
     filter_csv_by_suffix(input_csv, column_name, r'^.*_\d+\.geojson$', "f4carto_raw.csv")
     
-    filter_csv_by_suffix(input_csv, column_name, r'.*_5FCarto\.geojson$', "5fcarto_raw.csv")
+    filter_csv_by_suffix(input_csv, column_name, r'.*_5Fcarto\.geojson$', "5fcarto_raw.csv")
     
     filter_csv_by_suffix(input_csv, column_name, r'.*_flow_based\.geojson$', "flow_based_raw.csv")
     

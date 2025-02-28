@@ -8,13 +8,13 @@ df_fb = pd.read_csv("flow_based.csv")
 
 df_fb.rename(columns=lambda x: x if x=="Map" else "flow_based_" + x, inplace=True)
 
-merged_df = pd.merge(df_5f, df_4f, on="Map", suffixes=('_5fcarto', '_f4carto'))
+merged_df = pd.merge(df_5f, df_4f, on="Map", suffixes=('_5Fcarto', '_f4carto'))
 
 merged_df = pd.merge(merged_df, df_fb, on="Map")
 
 merged_df.rename(columns={
-    "self-intersections_5fcarto": "5FCarto_self-intersections",
-    "overlap intersections_5fcarto": "5FCarto_overlap intersections",
+    "self-intersections_5Fcarto": "5FCarto_self-intersections",
+    "overlap intersections_5Fcarto": "5FCarto_overlap intersections",
     "self-intersections_f4carto": "F4Carto_self-intersections",
     "overlap intersections_f4carto": "F4Carto_overlap intersections",
     "self-intersections_flow_based": "flow_based_self-intersections",
