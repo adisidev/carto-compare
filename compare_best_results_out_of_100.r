@@ -5,8 +5,8 @@ library(janitor)
 
 # Set `_F4Carto`, `5FCarto`, and `flow-based` directories
 dir_F4Carto <- "./F4carto-raw-100"
-dir_5FCarto <- "./5FCarto-raw-100"
-dir_flow_based <- "./flow-based-raw-100"
+dir_5FCarto <- "./5FCarto-100-graded"
+dir_flow_based <- "./flow-based-100-graded"
 # dir_flow_based <- "./5FCarto-raw-100"
 
 # Find all subdirectories in dir_F4Carto
