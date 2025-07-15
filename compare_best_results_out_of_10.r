@@ -6,8 +6,8 @@ library(janitor)
 
 # Set `_F4Carto`, `5FCarto`, and `flow_based` directories
 dir_F4Carto <- "./F4Carto-raw-10"
-dir_5FCarto <- "./5FCarto-raw-graded"
-dir_flow_based <- "./flow-based-raw-graded"
+dir_5FCarto <- "./5FCarto_QCLF-9"
+dir_flow_based <- "./BFB_QCLF-9"
 dir_inputs <- "./inputs"
 dir_output <- "./results_graded"
 
