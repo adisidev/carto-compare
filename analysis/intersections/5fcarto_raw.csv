@@ -1,6 +1,4 @@
 map_name,self-intersections,overlap intersections
-NUTS_population_by_country_2021_5Fcarto.geojson,0,0
-NUTS_population_by_region_2020_5Fcarto.geojson,0,0
 algeria_population_by_wilaya_2022_5Fcarto.geojson,0,0
 australia_population_by_state_and_territory_2021_5Fcarto.geojson,0,0
 austria_population_by_state_2020_5Fcarto.geojson,0,0
@@ -21,6 +19,8 @@ indonesia_population_by_province_2024_5Fcarto.geojson,0,0
 japan_population_by_prefecture_2020_5Fcarto.geojson,0,0
 malaysia_population_by_state_2020_5Fcarto.geojson,0,0
 metropolitan_france_population_by_departement_2022_5Fcarto.geojson,0,0
+NUTS_population_by_country_2021_5Fcarto.geojson,0,0
+NUTS_population_by_region_2020_5Fcarto.geojson,0,0
 russia_population_by_federal_subject_2010_5Fcarto.geojson,0,0
 simplified_belgium_population_by_region_2022_5Fcarto.geojson,0,0
 singapore_population_by_planning_area_2015_5Fcarto.geojson,0,0

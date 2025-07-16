@@ -13,10 +13,6 @@ df = df.rename(columns={
 
 df = df[["Map", "F4Carto", "5FCarto", "Flow Based"]]
 
-df = df[df["Map"] != "concentric_circles"]
-
-df = df.round(6)
-
 mapping_path = os.path.join(os.path.dirname(os.getcwd()), "mapping.json")
 with open(mapping_path, 'r') as f:
     mapping = json.load(f)

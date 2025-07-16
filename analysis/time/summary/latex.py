@@ -10,7 +10,7 @@ parts = latex_table.split('\\midrule', 1)
 custom_header = r"""
 \begin{tabular}{lccc|ccc}
 \toprule
-\multirow{2}{*}{Group} & \multicolumn{3}{c}{Average Time} & \multicolumn{3}{c}{\shortstack{Average Max Relative Area \\ Error at Time}} \\
+\multirow{2}{*}{Group} & \multicolumn{3}{c}{Average Time (s)} & \multicolumn{3}{c}{\shortstack{Average Maximum Relative Area \\ Error at Termination}} \\
 \cmidrule(lr){2-4}\cmidrule(lr){5-7}
                      & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB \\
 \midrule
@@ -18,5 +18,5 @@ custom_header = r"""
 
 final_latex = custom_header + parts[1]
 
-with open("latex.tex", "w") as f:
+with open("summary_latex.tex", "w") as f:
     f.write(final_latex)

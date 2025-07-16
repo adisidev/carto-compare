@@ -10,7 +10,7 @@ if len(parts) < 2:
 custom_header = r"""
 \begin{tabular}{lccc|ccc}
 \toprule
-\multirow{2}{*}{Map} & \multicolumn{3}{c}{Time} & \multicolumn{3}{c}{\shortstack{Max Relative Area \\ Error at Time}} \\
+\multirow{2}{*}{Map} & \multicolumn{3}{c}{Time (s)} & \multicolumn{3}{c}{\shortstack{Maximum Relative Area \\ Error at Termination}} \\
 \cmidrule(lr){2-4}\cmidrule(lr){5-7}
                      & F4Carto & 5FCarto & BFB & F4Carto & 5FCarto & BFB \\
 \midrule

@@ -1,33 +1,33 @@
 Map,F4Carto,5FCarto,Flow Based
-Algeria Population by Wilaya (2022),0.224776,0.000659,0.000695
-Australia Population by State and Territory (2021),0.554882,0.000727,0.000799
-Austria Population by State (2020),0.085301,0.000282,0.000491
-Bahamas Population by District (2010),1.01236,0.00087,0.000883
-Belgium Population by Region (2022),0.007039,0.000377,0.000362
-Brazil Population by State (2021),0.211295,0.00069,0.000689
-China Population by Province (2020),0.784266,0.000695,0.000638
-Conterminous USA Population by State (2020),0.029912,0.000623,0.000652
-Croatia Covid Cases by County (2022),0.015659,0.00083,0.000582
-Croatia Population by County (2021),0.011606,0.000483,0.000669
-Egypt Population by Governate (2017),0.199794,0.000935,0.000832
-England Population by Region (2022),0.148786,0.000264,0.000223
-European Union Population by Country (2021),0.186954,0.000764,0.00068
-European Union Population by Region (2020),1.68921,0.000918,0.001317
-France Population by Metropolitan Region (2008),0.010493,0.000759,0.000775
-Germany Population by State (2011),0.149993,0.000607,0.000722
-Indonesia Population by Province (2024),0.164449,0.000618,0.000769
-Japan Population by Prefecture (2020),0.10768,0.000547,0.000563
-Malaysia Population by State (2020),0.054546,0.000867,0.000552
-Metropolitan France Population by Departement (2022),0.211913,0.000651,0.000743
-Russia Population by Federal Subject (2010),1.09915,0.000773,0.000845
-Simplified Belgium Population by Region (2022),0.007851,0.000452,0.000397
-Singapore Population by Planning Area (2015),5.28365,0.000907,0.109883
-Switzerland GDP by Canton (2019),0.027815,0.000539,0.000624
-Switzerland Population by Canton (2016),0.021864,0.000606,0.000708
-Tunisia Population by Governate (2014),0.013849,0.000622,0.000598
-USA Population by County (2021),4.04647,0.000908,1.183398
-USA Population by State (2020),0.215729,0.000942,0.000747
-Vietnam Population by Province (2019),0.122838,0.000585,0.000679
-World Population by Country (2010),7.25603,0.001016,0.000977
-World Population by Country and Region,56.69,0.001075,0.00108
-World Population by Country and Region without Antarctica,7.17588,0.001096,0.001083
+Algeria Population by Wilaya (2022),0.224776,2.775557561562891e-15,2.220446049250313e-15
+Australia Population by State and Territory (2021),0.554882,1.4210854715202e-14,2.331468351712829e-15
+Austria Population by State (2020),0.0853007,3.552713678800501e-15,7.771561172376098e-16
+Bahamas Population by District (2010),1.01236,6.017408793468348e-14,5.218048215738237e-14
+Belgium Population by Region (2022),0.0070389,4.440892098500626e-16,2.220446049250313e-16
+Brazil Population by State (2021),0.211295,7.43849426498855e-14,1.77635683940025e-15
+China Population by Province (2020),0.784266,4.884981308350689e-15,2.442490654175344e-15
+Conterminous USA Population by State (2020),0.0299123,1.021405182655144e-14,4.440892098500626e-15
+Croatia Covid Cases by County (2022),0.0156588,3.697042672001771e-14,4.107825191113079e-15
+Croatia Population by County (2021),0.0116063,2.886579864025407e-15,2.997602166487923e-15
+Egypt Population by Governorate (2017),0.199794,4.331868197482436e-12,3.996802888650564e-15
+England Population by Region (2022),0.148786,1.443289932012704e-15,4.329869796038111e-15
+European Union Population by Country (2021),0.186954,3.742561816011403e-13,9.388045896230324e-13
+European Union Population by Region (2020),1.68921,5.586064943940983e-11,9.392486788328824e-14
+France Population by Metropolitan Region (2008),0.0104931,4.18554080283684e-14,9.992007221626409e-16
+Germany Population by State (2011),0.149993,1.332267629550188e-15,6.661338147750939e-16
+Indonesia Population by Province (2024),0.164449,1.06581410364015e-14,6.106226635438361e-15
+Japan Population by Prefecture (2020),0.10768,6.572520305780929e-13,9.325873406851317e-15
+Malaysia Population by State (2020),0.0545457,3.774758283725532e-15,1.9984014443252818e-15
+Metropolitan France Population by Département (2022),0.211913,9.769962616701378e-15,5.6621374255882976e-15
+Russia Population by Federal Subject (2010),1.09915,1.987688902360674e-10,4.307665335545608e-14
+Simplified Belgium Population by Region (2022),0.00785074,4.440892098500626e-16,4.440892098500626e-16
+Singapore Population by Planning Area (2015),5.28365,1.866321541754701e-09,4.481819850322241
+Switzerland GDP by Canton (2019),0.027815,1.021405182655144e-14,1.554312234475219e-14
+Switzerland Population by Canton (2016),0.021864,4.4386716524513764e-13,1.287858708565182e-14
+Tunisia Population by Governorate (2014),0.0138493,4.862776847858186e-14,7.771561172376098e-16
+USA Population by County (2021),4.04647,4.616243876043313e-08,0.0251897500941635
+USA Population by State (2020),0.215729,1.6542323066914832e-14,1.5432100042289682e-14
+Vietnam Population by Province (2019),0.122838,3.055555808373356e-12,4.662936703425657e-15
+World Population by Country (2010),7.25603,1.257551618394359e-09,2.486566508252963e-12
+World Population by Country and Region,56.69,2.032729762291297e-08,2.20046203480706e-13
+World Population by Country and Region without Antarctica,7.17588,9.180034510336552e-11,1.2101430968414214e-13

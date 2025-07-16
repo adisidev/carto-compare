@@ -1,6 +1,4 @@
 Map,self-intersections,overlap intersections,algorithm
-NUTS_population_by_country_2021,0,123,f4carto
-NUTS_population_by_region_2020,0,375,f4carto
 algeria_population_by_wilaya_2022,0,212,f4carto
 australia_population_by_state_and_territory_2021,0,8,f4carto
 austria_population_by_state_2020,0,46,f4carto
@@ -21,6 +19,8 @@ indonesia_population_by_province_2024,0,41,f4carto
 japan_population_by_prefecture_2020,0,24,f4carto
 malaysia_population_by_state_2020,0,35,f4carto
 metropolitan_france_population_by_departement_2022,0,138,f4carto
+NUTS_population_by_country_2021,0,123,f4carto
+NUTS_population_by_region_2020,0,375,f4carto
 russia_population_by_federal_subject_2010,0,389,f4carto
 simplified_belgium_population_by_region_2022,0,13,f4carto
 singapore_population_by_planning_area_2015,0,483,f4carto
