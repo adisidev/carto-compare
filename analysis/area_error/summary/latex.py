@@ -1,9 +1,16 @@
 import pandas as pd
 import re
 
+pd.set_option('display.max_colwidth', None)
+
 df = pd.read_csv("summary.csv")
 
-latex_table = df.to_latex(index=False, escape=True, multirow=True, float_format="%.6f")
+latex_table = df.to_latex(
+    index=False,
+    escape=True,
+    multirow=True,
+    float_format="%.4g"
+)
 
 parts = latex_table.split('\\midrule', 1)
 

@@ -1,7 +1,16 @@
 import pandas as pd
+import math
+
+
+pd.set_option('display.max_colwidth', None)
 
 df = pd.read_csv('combined.csv')
-latex_table = df.to_latex(index=False, escape=True, multirow=True, float_format="%.6f")
+latex_table = df.to_latex(
+    index=False,
+    escape=True,
+    multirow=True,
+    float_format="%.4g"
+)
 
 parts = latex_table.split('\\midrule', 1)
 if len(parts) < 2:
