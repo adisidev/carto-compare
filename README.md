@@ -27,6 +27,12 @@ bash calculate_similarity_and_intersections.sh 5FCarto-JUL15-TIMING-QCLF09/ F4Ca
 UL15-similarity-and-intersections
 ```
 
+-- `compare_best_results_out_of_10.r`: Script to compare timing results. Should work out of the box in R (with or without changing names), after changing the directory names in the script.
+
+-- `compare_best_results_out_of_100.r`: Script to compare area error results. Should work out of the box in R (with or without changing names), after changing the directory names in the script.
+
+-- `qlcf.r`: Script to analyse quadtree leaf count factor. Should have already been run, but can be re-run from results of `benchmark.sh` of `cartogram-cpp` if needed.
+
 ### Note: The data is already processed, so you do not need to run the following script.
 
 -- `process_raw_data_from_F4Carto.sh`: Script to convert F4Carto mapfile output to GeoJSON, `_nfo.txt` to `_F4Carto.csv`, and remove `.shp`, `.shx`, `.dbf`, `.prj` files. This also calculates the area errors of the `F4Carto` results, based on the target area already embedded as in the GeoJSON files.
