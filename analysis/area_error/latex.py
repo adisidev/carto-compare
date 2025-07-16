@@ -9,7 +9,7 @@ if len(parts) < 2:
 
 custom_header = r"""\begin{tabular}{lccc}
 \toprule
-Map & \multicolumn{3}{c}{\shortstack{Minimum Max Relative Area Error\\Among First 100 Iterations*}} \\
+Map & \multicolumn{3}{c}{\shortstack{Best-Case Maximum Relative Area Error\\Among First 100 Iterations}} \\
 \cmidrule(lr){2-4}
      & F4Carto & 5FCarto & BFB \\
 \midrule

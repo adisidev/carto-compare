@@ -18,5 +18,5 @@ custom_header = r"""
 
 final_latex = custom_header + parts[1]
 
-with open("latex.tex", "w") as f:
+with open("summary_latex.tex", "w") as f:
     f.write(final_latex)

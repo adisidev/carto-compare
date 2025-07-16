@@ -9,7 +9,7 @@ parts = latex_table.split('\\midrule', 1)
 
 custom_header = r"""\begin{tabular}{lccc}
 \toprule
-Group & \multicolumn{3}{c}{\shortstack{Average Minimum Max Relative Area Error\\Among First 100 Iterations*}} \\
+Group & \multicolumn{3}{c}{\shortstack{Averaged Best-Case Maximum Relative Area Error\\Among First 100 Iterations}} \\
 \cmidrule(lr){2-4}
      & F4Carto & 5FCarto & BFB \\
 \midrule
@@ -17,5 +17,5 @@ Group & \multicolumn{3}{c}{\shortstack{Average Minimum Max Relative Area Error\\
 
 final_latex = custom_header + parts[1]
 
-with open("latex.tex", "w") as f:
+with open("summary_latex.tex", "w") as f:
     f.write(final_latex)
