@@ -1,6 +1,4 @@
 Map,frechet distance,hausdorff distance,symmetric difference,algorithm
-NUTS_population_by_country_2021,1.03478,0.260419,0.742187,f4carto
-NUTS_population_by_region_2020,1.09225,0.343246,0.648286,f4carto
 algeria_population_by_wilaya_2022,0.825094,0.466575,0.922939,f4carto
 australia_population_by_state_and_territory_2021,1.10689,0.283751,0.669941,f4carto
 austria_population_by_state_2020,0.450027,0.249849,0.737205,f4carto
@@ -21,6 +19,8 @@ indonesia_population_by_province_2024,0.676474,0.393259,0.847098,f4carto
 japan_population_by_prefecture_2020,1.105,0.321357,0.634292,f4carto
 malaysia_population_by_state_2020,0.497137,0.323411,0.614074,f4carto
 metropolitan_france_population_by_departement_2022,0.467524,0.276904,0.567949,f4carto
+NUTS_population_by_country_2021,1.03478,0.260419,0.742187,f4carto
+NUTS_population_by_region_2020,1.09225,0.343246,0.648286,f4carto
 russia_population_by_federal_subject_2010,1.21976,0.371376,0.60425,f4carto
 simplified_belgium_population_by_region_2022,0.572354,0.278643,0.58779,f4carto
 singapore_population_by_planning_area_2015,1.65616,0.369428,0.893482,f4carto
