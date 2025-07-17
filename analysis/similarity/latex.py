@@ -1,5 +1,7 @@
 import pandas as pd
 
+pd.set_option('display.max_colwidth', None)
+
 df = pd.read_csv('combined.csv')
 latex_table = df.to_latex(index=False, escape=True, multirow=True, float_format="%.2f")
 
