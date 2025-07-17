@@ -4,6 +4,8 @@
 # Ignore backup folder
 **/backup
 *.geojson
+.ipynb_checkpoints
+
 .Rhistory
 .vscode-ctags
 *.txt
