@@ -6,10 +6,10 @@ library(janitor)
 
 # Set `_F4Carto`, `5FCarto`, and `flow_based` directories
 dir_F4Carto <- "./F4Carto-raw-10"
-dir_5FCarto <- "./5FCarto-JUL15-TIMING-QCLF09"
-dir_flow_based <- "./BFB-JUL15-TIMING-QCLF09"
+dir_5FCarto <- "./5FC-JUL17-TRIANGULATION-ON-ERROR-QCLF09"
+dir_flow_based <- "./BFB-JUL17-TRIANGULATION-ON-ERROR-QCLF09"
 dir_inputs <- "./inputs"
-dir_output <- "./JUL15-QLCF09-results"
+dir_output <- "./JULY17-QLCF09-TRIANGULATION-ON-results"
 
 # Find all subdirectories in dir_F4Carto
 mapnames <- list.dirs(dir_F4Carto, full.names = FALSE, recursive = FALSE)

@@ -5,8 +5,8 @@ library(janitor)
 
 # Set `_F4Carto`, `5FCarto`, and `flow-based` directories
 dir_F4Carto <- "./F4carto-raw-100"
-dir_5FCarto <- "./5FCarto-JUL15-ERROR-QCLF09"
-dir_flow_based <- "./BFB-JUL15-ERROR-QCLF09"
+dir_5FCarto <- "./5FC-JUL17-TRIANGULATION-ON-ERROR-QCLF09"
+dir_flow_based <- "./BFB-JUL17-TRIANGULATION-ON-ERROR-QCLF09"
 # dir_flow_based <- "./5FCarto-raw-100"
 
 # Find all subdirectories in dir_F4Carto
