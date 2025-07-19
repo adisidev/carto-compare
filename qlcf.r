@@ -1,6 +1,6 @@
 library(tidyverse)
 
-qlcf <- read_csv("final_results.csv")
+qlcf <- read_csv("/Users/adi/github/carto-compare/5FC-JUL19-QLCF-5_to_15/final_results.csv.csv")
 
 # rename 'mean' column to 'avg'
 qlcf <- qlcf |>
@@ -18,7 +18,7 @@ qlcf |>
 	) |>
 	# sort by mean (increasing)
 	arrange(mean) |>
-	write_csv("qlcf_summary-minus-us_counties.csv")
+	write_csv("19JUL-qlcf_summary-minus.csv")
 
 
 
