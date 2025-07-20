@@ -23,7 +23,7 @@ bash calculate_similarity_and_intersections.sh <5FCarto-directory> <F4Carto-dire
 
 For example:
 ```bash
-bash calculate_similarity_and_intersections.sh 5FCarto-JUL15-TIMING-QCLF09/ F4Carto-raw-10 BFB-JUL15-TIMING-QCLF09 J UL15-similarity-and-intersections
+bash calculate_similarity_and_intersections.sh 5FC-JULY19-TIMING F4Carto-raw-10 BFB-JULY19-TIMING jul20-analysis
 ```
 
 -- `compare_best_results_out_of_10.r`: Script to compare timing results. Should work out of the box in R (with or without changing names), after changing the directory names in the script.
