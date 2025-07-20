@@ -1,0 +1,5 @@
+map_name,frechet distance,hausdorff distance,symmetric difference
+austria_population_by_state_2020_input.geojson,0.450027,0.249849,0.737205
+brazil_population_by_state_2021_input.geojson,1.07699,0.352892,0.655186
+conterminous_usa_population_by_state_2020_input.geojson,0.530545,0.297222,0.580428
+switzerland_gdp_in_billion_chf_by_canton_2019_input.geojson,0.747133,0.381392,0.818128

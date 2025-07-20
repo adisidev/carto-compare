@@ -1,0 +1,5 @@
+map_name,frechet distance,hausdorff distance,symmetric difference
+croatia_covid_cases_by_county_2022_input.geojson,0.488166,0.28588,0.61982
+japan_population_by_prefecture_2020_input.geojson,1.105,0.321357,0.634292
+metropolitan_france_population_by_departement_2022_input.geojson,0.467524,0.276904,0.567949
+tunisia_population_by_governate_2014_input.geojson,0.485412,0.314075,0.631226
