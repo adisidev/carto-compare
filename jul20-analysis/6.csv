@@ -1,5 +1,0 @@
-map_name,frechet distance,hausdorff distance,symmetric difference
-croatia_population_by_county_2021_input.geojson,0.390128,0.251521,0.570326
-germany_population_by_state_2011_input.geojson,0.305769,0.228149,0.504613
-indonesia_population_by_province_2024_input.geojson,0.676474,0.393259,0.847098
-malaysia_population_by_state_2020_input.geojson,0.497137,0.323411,0.614074

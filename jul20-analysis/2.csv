@@ -1,7 +1,0 @@
-map_name,frechet distance,hausdorff distance,symmetric difference
-australia_population_by_state_and_territory_2021_input.geojson,1.10689,0.283751,0.669941
-belgium_population_by_region_2022_input.geojson,0.324619,0.283501,0.580082
-england_population_by_region_2022_input.geojson,1.09532,0.319515,0.651709
-france_population_by_metropolitan_region_2008_input.geojson,0.36902,0.265627,0.488924
-simplified_belgium_population_by_region_2022_input.geojson,0.572354,0.278643,0.58779
-vietnam_population_by_province_2019_input.geojson,1.01929,0.264671,0.710648
