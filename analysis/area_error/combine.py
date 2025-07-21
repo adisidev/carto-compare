@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import os
 
-df = pd.read_csv("results_best_out_of_100_graded.csv")
+df = pd.read_csv("results_best_out_of_100.csv")
 
 df = df.rename(columns={
     "mapname": "Map",

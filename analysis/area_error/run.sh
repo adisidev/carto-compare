@@ -1,6 +1,6 @@
 # remove all .csv except intersections.csv
 for f in *.csv; do
-  [[ $f == results_best_out_of_100_graded.csv ]] && continue
+  [[ $f == results_best_out_of_100.csv ]] && continue
   rm -f "$f"
 done
 

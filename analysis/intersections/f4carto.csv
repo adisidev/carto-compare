@@ -1,5 +1,5 @@
 Map,self-intersections,overlap intersections,algorithm
-algeria_population_by_wilaya_2022,0,212,f4carto
+algeria_population_by_wilaya_2022,0,210,f4carto
 australia_population_by_state_and_territory_2021,0,8,f4carto
 austria_population_by_state_2020,0,46,f4carto
 bahamas_population_by_district_2010,0,7,f4carto
@@ -9,8 +9,8 @@ china_population_by_province_2020,0,260,f4carto
 conterminous_usa_population_by_state_2020,0,96,f4carto
 croatia_covid_cases_by_county_2022,0,42,f4carto
 croatia_population_by_county_2021,0,110,f4carto
-csv_ne50_antimeridian_minus169_brewer_pop,0,95,f4carto
-csv_wo_antarctica_ne50_antimeridian_minus169_brewer_pop,0,93,f4carto
+csv_ne50_antimeridian_minus169_brewer_pop,0,96,f4carto
+csv_wo_antarctica_ne50_antimeridian_minus169_brewer_pop,0,92,f4carto
 egypt_population_by_governate_2017,0,621,f4carto
 england_population_by_region_2022,0,15,f4carto
 france_population_by_metropolitan_region_2008,0,35,f4carto
@@ -27,7 +27,7 @@ singapore_population_by_planning_area_2015,0,483,f4carto
 switzerland_gdp_in_billion_chf_by_canton_2019,0,91,f4carto
 switzerland_population_by_canton_2016,0,137,f4carto
 tunisia_population_by_governate_2014,0,37,f4carto
-usa_population_by_county_2021,0,3434,f4carto
+usa_population_by_county_2021,0,3400,f4carto
 usa_population_by_state_2020,0,227,f4carto
 vietnam_population_by_province_2019,0,27,f4carto
-world_population_by_country_2010,0,118,f4carto
+world_population_by_country_2010,0,117,f4carto

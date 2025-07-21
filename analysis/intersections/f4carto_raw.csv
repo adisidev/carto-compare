@@ -1,5 +1,5 @@
 map_name,self-intersections,overlap intersections
-algeria_population_by_wilaya_2022_5.geojson,0,212
+algeria_population_by_wilaya_2022_5.geojson,0,210
 australia_population_by_state_and_territory_2021_2.geojson,0,8
 austria_population_by_state_2020_4.geojson,0,46
 bahamas_population_by_district_2010_9.geojson,0,7
@@ -9,8 +9,8 @@ china_population_by_province_2020_9.geojson,0,260
 conterminous_usa_population_by_state_2020_4.geojson,0,96
 croatia_covid_cases_by_county_2022_3.geojson,0,42
 croatia_population_by_county_2021_6.geojson,0,110
-csv_ne50_antimeridian_minus169_brewer_pop_9.geojson,0,95
-csv_wo_antarctica_ne50_antimeridian_minus169_brewer_pop_9.geojson,0,93
+csv_ne50_antimeridian_minus169_brewer_pop_9.geojson,0,96
+csv_wo_antarctica_ne50_antimeridian_minus169_brewer_pop_9.geojson,0,92
 egypt_population_by_governate_2017_9.geojson,0,621
 england_population_by_region_2022_2.geojson,0,15
 france_population_by_metropolitan_region_2008_2.geojson,0,35
@@ -27,7 +27,7 @@ singapore_population_by_planning_area_2015_9.geojson,0,483
 switzerland_gdp_in_billion_chf_by_canton_2019_4.geojson,0,91
 switzerland_population_by_canton_2016_5.geojson,0,137
 tunisia_population_by_governate_2014_3.geojson,0,37
-usa_population_by_county_2021_9.geojson,0,3434
+usa_population_by_county_2021_9.geojson,0,3400
 usa_population_by_state_2020_9.geojson,0,227
 vietnam_population_by_province_2019_2.geojson,0,27
-world_population_by_country_2010_9.geojson,0,118
+world_population_by_country_2010_9.geojson,0,117
